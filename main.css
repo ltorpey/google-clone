@@ -1,0 +1,220 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	color: #9C8F88;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* my code */
+
+header {
+	width: 100%;
+	position: absolute;
+	top:0;
+} 
+
+#top_nav {
+	float: right;
+	padding: 15px;
+}
+
+#center {
+	margin-top: 195px;
+	height: 150px;
+	width: 600px;
+	margin: 195px auto 0;
+}
+
+.logo {
+	background: url('images/google-logo.png') no-repeat 50%;
+	background-size: auto 95px;
+	width: 100%;
+	height: 95px;
+}
+
+.box {
+	display: block;
+ 	margin-top: 25px;
+}
+
+
+.buttons {
+	width: auto;
+	margin-top: 16px;
+	text-align: center;
+}
+
+
+fieldset input {
+	background: #f4f4f4;
+  	border: 1px solid #d9d9d9;
+  	color: #444;
+  	font-weight: bold;
+  	padding: 5px 10px;
+}
+
+form input {
+	width: 570px;
+	height: 30px;
+	border: 1px solid #e4e4e4;
+	background: url('images/microphone.png') no-repeat 100%;
+	background-size: auto 20px;
+	vertical-align: middle;
+}
+
+
+li {
+	display: inline-block;
+	margin-right: 12px;
+	vertical-align: middle;
+}
+
+.grid {
+	background: url('images/grid.png') no-repeat 50%;
+	background-size: auto 20px;
+	width: 25px;
+	height: 25px;
+}
+
+.sign_in {
+	background: -webkit-linear-gradient(#498BFC,#5269FF);
+	background: -moz-linear-gradient(#498BFC,#5269FF);
+	background: -ms-linear-gradient(#498BFC,#5269FF);
+	background: -o-linear-gradient(#498BFC,#5269FF);
+	background: linear-gradient(#498BFC,#5269FF);
+	color: #FFFFFF;
+	padding: 7px 12px;
+	border-radius: 2px;
+}
+
+
+a {
+	text-decoration: none;
+	color: #404040;
+
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.footer {
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+ 	height: 40px;
+ 	width: 100%;
+ 	display: block;
+ 	position: fixed;
+ 	bottom: 0;
+ 	right: 0;
+ 	left: 0;
+
+}
+
+.link_left {
+	float: left;
+	margin-top: 12px;
+	margin-left: 25px;
+}
+
+.link_left li {
+	margin-right: 20px;
+}
+
+.link_right {
+	float: right;
+	margin-top: 12px;
+	margin-right: 25px;
+}
+
+.link_right li {
+	margin-left: 15px;
+}
+
+
+/*
+.user_nav .you li {
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: middle;
+
+}
+
+.user_nav .gmail li {
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: middle;}
+
+.user_nav .images li {
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: middle;}
+
+.user_nav .grid li {
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: middle;}
+
+.user_nav .sign_in li {
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: middle;
+
+}
+
+
+
+
+
+
+
+
+
+
